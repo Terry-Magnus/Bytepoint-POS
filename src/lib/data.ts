@@ -1,0 +1,92 @@
+const placeholder_users = [
+  {
+    createdAt: "2025-08-10T01:34:54.738Z",
+    name: "James Howlett",
+    role: "admin",
+    active: true,
+    email: "michaeluyanna99@gmail.com",
+    id: "1",
+  },
+  {
+    createdAt: "2025-08-10T17:15:35.184Z",
+    name: "Mrs. Ramona Pacocha",
+    role: "customer",
+    active: false,
+    email: "Lisandro83@yahoo.com",
+    id: "2",
+  },
+  {
+    createdAt: "2025-08-10T21:02:40.653Z",
+    name: "Mr. Steven Homenick",
+    role: "customer",
+    active: false,
+    email: "Pablo_Daugherty@gmail.com",
+    id: "3",
+  },
+  {
+    createdAt: "2025-08-10T07:29:32.289Z",
+    name: "Debra MacGyver",
+    role: "customer",
+    active: false,
+    email: "Miguel_Ryan@gmail.com",
+    id: "4",
+  },
+  {
+    createdAt: "2025-08-10T15:15:10.906Z",
+    name: "James Sanford",
+    role: "customer",
+    active: false,
+    email: "Ida_Swift62@gmail.com",
+    id: "5",
+  },
+];
+
+const placeholder_products = [
+  {
+    createdAt: "2025-08-10T03:03:26.608Z",
+    name: "name 1",
+    category: "category 1",
+    image: "https://loremflickr.com/1246/3983?lock=5211536935214012",
+    price: 75,
+    stock: 14,
+    id: "1",
+  },
+  {
+    createdAt: "2025-08-10T04:05:14.564Z",
+    name: "name 2",
+    category: "category 2",
+    image: "https://loremflickr.com/2495/1760?lock=2585368019458726",
+    price: 38,
+    stock: 32,
+    id: "2",
+  },
+  {
+    createdAt: "2025-08-10T18:37:53.062Z",
+    name: "name 3",
+    category: "category 3",
+    image: "https://picsum.photos/seed/ydocJj/530/1326",
+    price: 3,
+    stock: 85,
+    id: "3",
+  },
+  {
+    createdAt: "2025-08-10T08:34:16.549Z",
+    name: "name 4",
+    category: "category 4",
+    image: "https://loremflickr.com/319/1723?lock=7512299045774738",
+    price: 47,
+    stock: 15,
+    id: "4",
+  },
+  {
+    createdAt: "2025-08-10T18:49:42.204Z",
+    name: "name 5",
+    category: "category 5",
+    image: "https://picsum.photos/seed/eYa0PijsSB/894/1356",
+    price: 42,
+    stock: 17,
+    id: "5",
+  },
+];
+
+export { placeholder_products, placeholder_users };

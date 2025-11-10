@@ -1,4 +1,4 @@
-import Logo from "@/components/Logo";
+import Logo from "@/components/layout/Logo";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({

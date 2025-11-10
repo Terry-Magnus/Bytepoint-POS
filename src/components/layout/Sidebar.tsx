@@ -5,13 +5,16 @@ import { usePathname } from "next/navigation";
 import React from "react";
 import Logo from "./Logo";
 import {
-  Calculator,
-  LayoutDashboard,
+  Archive,
+  ChartArea,
+  ClipboardEdit,
+  CreditCard,
   LogOut,
-  Settings,
+  Settings2,
   ShoppingBag,
-  SquareMenu,
   UserRound,
+  Users2,
+  UtensilsCrossed,
 } from "lucide-react";
 
 const Sidebar = () => {
@@ -74,9 +77,12 @@ const Sidebar = () => {
 export default Sidebar;
 
 export const menuItems = [
-  { icon: LayoutDashboard, label: "Dashboard", href: "/overview" },
-  { icon: SquareMenu, label: "Menu", href: "/menu" },
-  { icon: ShoppingBag, label: "Orders", href: "/orders" },
-  { icon: Calculator, label: "Accounting", href: "/accounting" },
-  { icon: Settings, label: "Settings", href: "/settings" },
+  { label: "Dashboard", href: "/overview", icon: ChartArea },
+  { label: "POS", href: "/pos", icon: ShoppingBag },
+  { label: "Menu", href: "/menu", icon: ClipboardEdit },
+  { label: "Tables", href: "/tables", icon: UtensilsCrossed },
+  { label: "Inventory", href: "/inventory", icon: Archive },
+  { label: "Customers", href: "/customers", icon: Users2 },
+  { label: "Payments", href: "/payments", icon: CreditCard },
+  { label: "Settings", href: "/settings", icon: Settings2 },
 ];
